@@ -46,13 +46,13 @@ public:
 	double getForkProb();
 	//adding to siganl kill list
 	void AddSignalKill(SIGKILL Sg);
-	SIGKILL GetSignalKill();
+	SIGKILL GetSignalKill();  //Amira El-Garf
 
 	void DeleteRandomProcess(int index); //phase one
 	
 	//killing Process
-	bool Kill(Process* P);
-	bool killFCFS(Process* P, int timestep, int x);
+	bool Kill(Process* P);     //Amira El-Garf
+	bool killFCFS(Process* P, int timestep, int x);  
 	//seter get for signal list
 	int GestSignailListCount();
 	void SetSignallistcount(int count);
