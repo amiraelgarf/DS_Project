@@ -3,7 +3,8 @@
 # OVERVIEW
 Process Scheduling program is a simulation for how the operating systems of linux work.
 it contain foure type of processors (First Come First Serve (FCFS), Round Robin (RR), Shortest Job First (SJF) and Earliest Deadline First (EDF)). the program contain several actions like (Process migration, Forking, workstealing, Processor overheating,orphan killing, killing .....etc)
-The program works under some assumputions like that each actions happens according to a certain input file that we put manually.
+The program has three mode step-by-step, silent and interactive mode and works under some assumputions like that each actions happens according to a certain input file that we put manually.
+The process enter the program accourding to it's arrival time then enter the readyList for the processor that has the shortest readyList (the shortest readyList means the List that has the shortest finishing time) then the processor transfer the process to the RUN state according to it's scheduling algo then it remains there until it's cpu time equal zero or there is some sctions that may happen like forking a process or the process needs an input from the user so it will be moved to the block list untill the it recieve the input. There are some extra actions may happen to the process that it recieve a signall kill at a certain time step from the input file throughout the program a workstealing or/and process migration that may happen among the processors according to a percentage that uploaded from the input file. when all the processes are done processing the program create an output file that shows you the average waiting time , the percentage of migration, workstealing , forked process and killed process, processor utilization and average utilization....etc.
 
 # LANGUAGE
 C++
@@ -17,3 +18,7 @@ This application was submitted as a semester project for a Data structres course
  Bassem sherief
  
  Mohamed nabil
+
+
+input file
+![Screenshot (110)](https://github.com/amiraelgarf/DS_Project/assets/127895527/e09317e4-f9a6-4a96-96a0-8c73b5194619)
