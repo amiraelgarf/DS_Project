@@ -25,7 +25,7 @@ This application was submitted as a semester project for a Data structres course
 
 ![Screenshot (111)](https://github.com/amiraelgarf/DS_Project/assets/127895527/2618cb66-57c5-4229-a52c-0a2b50417722)
 
-# program interface
+# program interface for interactive mode
 
 ![Screenshot (112)](https://github.com/amiraelgarf/DS_Project/assets/127895527/976dd8e7-48d7-4963-83ce-6cd6c8fdc2ba)
 
@@ -41,5 +41,3 @@ This application was submitted as a semester project for a Data structres course
 
 # The program ended successfully after all the process including the forked ones finished their CPU and moves to the termination list and the out file is created.
 ![Screenshot (121)](https://github.com/amiraelgarf/DS_Project/assets/127895527/a632496d-49e2-4dbc-9ace-772b051c7020)
-
-
