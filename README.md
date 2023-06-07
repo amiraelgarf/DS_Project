@@ -21,4 +21,20 @@ This application was submitted as a semester project for a Data structres course
 
 
 input file
-![Screenshot (110)](https://github.com/amiraelgarf/DS_Project/assets/127895527/e09317e4-f9a6-4a96-96a0-8c73b5194619)
+![Screenshot (111)](https://github.com/amiraelgarf/DS_Project/assets/127895527/2618cb66-57c5-4229-a52c-0a2b50417722)
+
+program interface 
+![Screenshot (112)](https://github.com/amiraelgarf/DS_Project/assets/127895527/976dd8e7-48d7-4963-83ce-6cd6c8fdc2ba)
+
+killing process & forking happened for process with id 1
+![Screenshot (113)](https://github.com/amiraelgarf/DS_Project/assets/127895527/dd180ab4-7f09-467d-a11c-8ae568b32122)
+
+some shots from the program
+![Screenshot (119)](https://github.com/amiraelgarf/DS_Project/assets/127895527/a6d15ae0-ea62-417f-9b72-10b11c5d4be5)
+
+![Screenshot (120)](https://github.com/amiraelgarf/DS_Project/assets/127895527/e3906931-47b7-4799-a550-e55261f2a235)
+
+The program ended successfully after all the process including the forked ones finished their cpu and moves to the termination list
+![Screenshot (121)](https://github.com/amiraelgarf/DS_Project/assets/127895527/a632496d-49e2-4dbc-9ace-772b051c7020)
+
+
