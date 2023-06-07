@@ -65,21 +65,21 @@ public:
 	void SimulationFun();
 
 	//chk RDY lists every time step
-	void WorkStealing();
-	bool Output(string filenamee);
+	void WorkStealing();   //Bassem 
+	bool Output(string filenamee);     //Bassem
 	//From RUN to BLK , called by the processors
-	void IO_requestHandling(Processor* pProc);
-	//void IO_requestHandling(Processor* pProc); ///Amira
+	void IO_requestHandling(Processor* pProc);   //Bassem
+	
 	void GetLongest_ShortestReady(); //geting the shortest and longest ready list for work stealing
 	double GetStealLimit();
 
 	void incrementNumberOfProcessor();
 	//loading fun
-	void FileLoad(string filename);
+	void FileLoad(string filename);    //Bassem
 	
 	void AddToTrmList(Process* P);
 	
-	void AddToBlockList(Process* P);
+	void AddToBlockList(Process* P);   
 	
 	bool RunAvailability();					//Checks if processor is busy 
 	
@@ -100,39 +100,39 @@ public:
 	
 	
 	//ORPH Process
-	void ORPH(Process* P);
+	void ORPH(Process* P);    //Amira El-Garf
 	
 	//getting the shortest ready amony FCFS processors 
-	int GetShortestRDYProccessorFCFS();
+	int GetShortestRDYProccessorFCFS();     //Amira El-Garf
 
 	//Forking process
-	void ProcessForking(Process* P);
+	void ProcessForking(Process* P);       //Amira El-Garf
 	
 	void decrementnoOfprocessRUN();
 	void incrementnoOfProcessInRUN();
 	
 	//getting shortest ready among SJF processors
-	int GetShortestRDYProccessorSJF();
+	int GetShortestRDYProccessorSJF();    
 	
 	//getting shortest ready among RR processors
 	int GetShortestRDYProccessorRR();
 	
 	//moving from new list to ready list
-	void NEWtoRDY();
+	void NEWtoRDY();         //Danah Hassan
 	
 	//moving from block list to ready list
-	bool BLKTORDY();
+	bool BLKTORDY();         //Danah Hassan
 	
 	// moving from run to termination list if the cpu time is over 
-	bool RUNTOTRM(Process* P, Processor* Pproc);
+	bool RUNTOTRM(Process* P, Processor* Pproc);       //Mohamed 
 
 	//Process migration from RR to SJF Processors 
-	void ProcessMigrationRR(Process* P, Processor* Pproc);
+	void ProcessMigrationRR(Process* P, Processor* Pproc);       //Danah Hassan
 	
 	//process migration from FCFS to RR Processors 
-	void ProcessMigrationFCFS(Process* P, Processor* Pproc);
+	void ProcessMigrationFCFS(Process* P, Processor* Pproc);   //Danah Hassan
 	
 	//Processor overheating (bonus)
-	void ProcessorOverheating();
+	void ProcessorOverheating();   //Amira El-Garf
 };
 #endif
