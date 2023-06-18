@@ -43,7 +43,7 @@ This application was submitted as a semester project for a Data structres course
 ![Screenshot (120)](https://github.com/amiraelgarf/DS_Project/assets/127895527/e3906931-47b7-4799-a550-e55261f2a235)
 
 # The program ended successfully after all the processes including the forked ones finished their CPU and moved to the termination list and the out file is created.
-![Screenshot (121)](https://github.com/amiraelgarf/DS_Project/assets/127895527/a632496d-49e2-4dbc-9ace-772b051c7020)
+![Screenshot (140)](https://github.com/amiraelgarf/DS_Project/assets/127895527/f113b6af-6e1f-4b02-babb-5c9132d598b8)
 
 # Output file sample
 ![Screenshot (132)](https://github.com/amiraelgarf/DS_Project/assets/127895527/19fed668-0133-4ab6-911e-727ba9b1ec6b)
